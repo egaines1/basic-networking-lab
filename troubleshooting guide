@@ -1,0 +1,18 @@
+# Troubleshooting Guide
+
+## Problem: No Internet Access
+- Use `ping 8.8.8.8`
+  - If ping fails, it may be a local network or ISP issue.
+  - If it works but websites don’t load, check DNS.
+
+## Problem: Website Not Loading
+- Use `nslookup` to check DNS resolution.
+  - If DNS fails, try switching to public DNS like 8.8.8.8.
+
+## Problem: Network is Slow
+- Use `tracert google.com` to identify slow hops or timeouts.
+  - This helps determine if latency is due to your network or upstream.
+
+## Problem: Confirm IP Address or Gateway
+- Use `ipconfig /all`
+  - Check for assigned IP, default gateway, and DHCP status.
