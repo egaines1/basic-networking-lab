@@ -1,0 +1,26 @@
+NETWORKING LAB REPORT
+
+Tools Used:
+- ping
+- ipconfig
+- tracert
+- nslookup
+
+System Info:
+- Windows 10 Laptop
+- Connected to Home Wi-Fi Network
+
+Objective:
+To explore the use of basic command-line networking tools and understand how to troubleshoot connectivity problems.
+
+Findings:
+I used 'ping' to verify that my internet connection was active by sending requests to Google's DNS server (8.8.8.8). The results showed successful replies, confirming connectivity.
+
+The 'ipconfig' command revealed my local IP address, gateway, and DNS server. I redacted sensitive information like my MAC address before uploading.
+
+Using 'tracert', I observed the path packets take from my computer to Google's server, including hop-by-hop delays. This can be useful in identifying slow network segments.
+
+With 'nslookup', I confirmed that domain names like openai.com properly resolve to IP addresses, which is crucial for browser access.
+
+Conclusion:
+This lab gave me practical experience with key diagnostic tools and improved my ability to identify and resolve basic networking issues at home or in a professional IT environment.
